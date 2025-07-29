@@ -550,30 +550,257 @@ body {
   margin-bottom: 40px;
 }
 .strategy-list {
+  width: 100%;
   display: flex;
   gap: 30px;
 }
 .strategy-list-item {
-  width: 350px;
   border: 1px solid #dedede;
   border-radius: 8px;
-  height: 359px;
+  /* height: 359px; */
+  width: calc((100% - 60px) / 3);
 }
 .strategy-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
-  margin: 24px auto 12px 24px;
+}
+
+.strategy-item-cont {
+  padding: 24px 27px 40px 27px;
 }
 
 .strategy-title-acent {
   font-weight: 700;
 }
 .strategy-item-title {
-  width: 296px;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.66667;
-  margin: 0 27px 40px 27px;
 }
 /* #endregion strategy*/
+
+/* #region price */
+.price {
+}
+.price-container {
+}
+.container {
+}
+.price-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.price-text {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.price-list {
+  display: flex;
+  width: 100%;
+  gap: 72px;
+}
+
+.price-list-item {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  padding: 32px 0 32px 0;
+  width: calc((100% - 144px) / 3);
+}
+
+.price-list-item:hover,
+.price-list-item:focus {
+  background-color: #02897a;
+  color: #fff;
+}
+
+.price-item-title {
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  margin-bottom: 8px;
+}
+
+.price-item-text {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  margin-bottom: 16px;
+}
+
+.price-item-terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.price-number {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+.price-usd {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+.price-period {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+  text-align: end;
+}
+
+.price-terms-container {
+}
+
+.price-item-list {
+  text-align: center;
+}
+
+.price-item-list:not(:last-child) .price-item-list-desc {
+  margin-bottom: 16px;
+}
+
+.price-item-list-desc {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+}
+
+.price-btn {
+  display: block;
+  font-family: "Montserrat";
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background: #02897a;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin: 30px auto 0 auto;
+}
+/* #endregion */
+
+/* #region fidback */
+.fidback-container {
+}
+.container {
+}
+.fidback-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78125;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.fidback-text {
+  width: 537px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin: 0 auto 40px auto;
+}
+.fidback-list {
+  width: 100%;
+  display: flex;
+  gap: 64px;
+}
+
+.fidback-item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 28px 26px;
+  background: #fff;
+  width: calc((100% - 128px) / 3);
+}
+.fidback-icon {
+  margin-bottom: 16px;
+  fill: #f3cd03;
+}
+.fidback-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+}
+.fidback-item-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+.fidback-item-post {
+}
+
+.fidback-user-info {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.fidback-user-desc {
+}
+
+/* #endregion */
+
+/* #region boost */
+.boost {
+}
+.boost-container {
+  border-radius: 32px;
+  background: #02897a;
+  display: flex;
+  max-width: 968px;
+  height: 345px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.boost-content {
+  margin-top: 49px;
+  margin-left: 51px;
+  margin-bottom: 56px;
+}
+.boost-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  margin-bottom: 46px;
+}
+.boost-btn {
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+}
+.boost-image {
+  width: 100%;
+}
+/* #endregion */

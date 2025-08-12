@@ -840,7 +840,7 @@ body {
   text-align: center;
 }
 
-.price-item-list:not(:last-child) .price-item-list-desc {
+.price-item-list-desc:not(:last-child) {
   margin-bottom: 16px;
 }
 
@@ -1169,6 +1169,6 @@ body {
   transform: scale(1.02);
 }
 
-  {}
+
 
 /* #endregion */

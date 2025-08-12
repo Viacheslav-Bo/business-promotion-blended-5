@@ -8,34 +8,226 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <title>Pricing</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles-pricing.css" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <a href="./index.html">
-          <svg width="40" height="36">
-            <use href="./images/icons.svg#logo"></use>
-          </svg>
-          Product
-        </a>
+      <div class="header-container container">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo-link">
+            <svg class="main-logo" width="40" height="36">
+              <use href="./images/icons.svg#logo"></use>
+            </svg>
+            Product
+          </a>
 
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./resources.html">Resources</a></li>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-link">Product</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./pricing.html" class="nav-link current">Pricing</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./customers.html" class="nav-link">Customers</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./resources.html" class="nav-link">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="nav-btn-list">
+          <li class="nav-btn-list-item">
+            <button type="button" class="nav-btn-in">Sign In</button>
+          </li>
+          <li class="nav-btn-list-item">
+            <button type="button" class="nav-btn-up">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <button type="button">Sign In</button>
-        </li>
-        <li>
-          <button type="button">Sign Up</button>
-        </li>
-      </ul>
+      </div>
     </header>
+
+    <section class="clients">
+      <div class="clients-container container">
+        <h2 class="clients-title">Our clients</h2>
+        <ul class="clients-list">
+          <li class="clients-list-item">
+            <svg class="clients-logo" width="159" height="50">
+              <use href="./images/icons.svg#airbnb"></use>
+            </svg>
+          </li>
+          <li class="clients-list-item">
+            <svg class="clients-logo" width="146" height="50">
+              <use href="./images/icons.svg#google"></use>
+            </svg>
+          </li>
+          <li class="clients-list-item">
+            <svg class="clients-logo" width="213" height="44">
+              <use href="./images/icons.svg#microsoft"></use>
+            </svg>
+          </li>
+          <li class="clients-list-item">
+            <svg class="clients-logo" width="140" height="42">
+              <use href="./images/icons.svg#fedex"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="benefits-container container">
+        <h3 class="benefits-title">Why Choose Product?</h3>
+        <ul class="benefits-list">
+          <li class="benefits-list-item">
+            <div class="ben-icon-cont">
+              <svg class="benefits-icons" width="18" height="18">
+                <use href="./images/icons.svg#prod-2"></use>
+              </svg>
+            </div>
+            <p class="benefits-item-title">Special Business</p>
+            <p class="benefits-item-desc">
+              Product helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+          <li class="benefits-list-item">
+            <div class="ben-icon-cont">
+              <svg class="benefits-icons" width="16" height="18">
+                <use href="./images/icons.svg#prod-1"></use>
+              </svg>
+            </div>
+            <p class="benefits-item-title">Instant Result</p>
+            <p class="benefits-item-desc">
+              Product helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+          <li class="benefits-list-item">
+            <div class="ben-icon-cont">
+              <svg class="benefits-icons" width="14" height="18">
+                <use href="./images/icons.svg#prod-4"></use>
+              </svg>
+            </div>
+            <p class="benefits-item-title">Fastest way to organize</p>
+            <p class="benefits-item-desc">
+              Product helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container container">
+        <div class="footer-cont-socials">
+          <a class="logo-link" href="./index.html">
+            <svg width="40" height="36" class="main-logo">
+              <use href="./images/icons.svg#logo"></use>
+            </svg>
+            Product</a
+          >
+          <ul class="footer-social-list">
+            <li class="footer-social-list-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer-social-link"
+              >
+                <svg class="footer-social-list-icons" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list-item">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer-social-link"
+              >
+                <svg class="footer-social-list-icons" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-list-item">
+              <a
+                href="https://x.com/"
+                target="_blank"
+                class="footer-social-link"
+              >
+                <svg class="footer-social-list-icons" width="24" height="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-resource">
+          <h3 class="footer-res-title">Resource</h3>
+          <ul class="footer-res-list">
+            <li class="footer-res-item">
+              <a class="footer-res-desc" href="./index.html">About Us</a>
+            </li>
+            <li class="footer-res-item">
+              <a class="footer-res-desc" href="./index.html">Blog</a>
+            </li>
+            <li class="footer-res-item">
+              <a class="footer-res-desc" href="./index.html">Contact</a>
+            </li>
+            <li class="footer-res-item">
+              <a class="footer-res-desc" href="./index.html">FAQ</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-stuff">
+          <h3 class="footer-stuff-title">Legal Stuff</h3>
+          <ul class="footer-stuff-list">
+            <li class="footer-stuff-item">
+              <a class="footer-stuff-desc" href="./index.html">Disclaimer</a>
+            </li>
+            <li class="footer-stuff-item">
+              <a class="footer-stuff-desc" href="./index.html">Financing</a>
+            </li>
+            <li class="footer-stuff-item">
+              <a class="footer-stuff-desc" href="./index.html"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-deal">
+          <p class="footer-deal-title">
+            knowing you're always on the best energy deal.
+          </p>
+          <form class="footer-form">
+            <label class="footer-form-label">
+              <input
+                class="footer-input"
+                type="tel"
+                name="phone"
+                placeholder="Enter your phone number"
+              />
+
+              <svg class="footer-input-icon" width="16" height="24">
+                <use href="./images/icons.svg#mob"></use>
+              </svg>
+            </label>
+            <button type="submit" class="deal-btn">Sign up Now</button>
+          </form>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
